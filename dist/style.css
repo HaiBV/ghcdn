@@ -1,0 +1,171 @@
+@font-face {
+	font-family: "icomoon";
+	src: url("fonts/icomoon.eot?53fv2l");
+	src: url("fonts/icomoon.eot?53fv2l#iefix") format("embedded-opentype"),
+		url("fonts/icomoon.ttf?53fv2l") format("truetype"),
+		url("fonts/icomoon.woff?53fv2l") format("woff"),
+		url("fonts/icomoon.svg?53fv2l#icomoon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icomoon" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	font-size: 30px;
+}
+
+.btn-5,
+.btn-5 *,
+.btn-5 :after,
+.btn-5 :before,
+.btn-5:after,
+.btn-5:before {
+	border: 0 solid;
+	box-sizing: border-box;
+}
+.btn-5 {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-appearance: button;
+	background-color: #000;
+	background-image: none;
+	color: #fff;
+	cursor: pointer;
+	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+		Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+		Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	font-size: 100%;
+	font-weight: 900;
+	line-height: 1.5;
+	margin: 0;
+	-webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+	padding: 0;
+	text-transform: uppercase;
+}
+.btn-5:disabled {
+	cursor: default;
+}
+.btn-5:-moz-focusring {
+	outline: auto;
+}
+.btn-5 svg {
+	display: block;
+	vertical-align: middle;
+}
+.btn-5 [hidden] {
+	display: none;
+}
+.btn-5 {
+	border-radius: 99rem;
+	border-width: 2px;
+	overflow: hidden;
+	padding: 0.8rem 3rem;
+	position: relative;
+}
+.btn-5 span {
+	mix-blend-mode: difference;
+}
+.btn-5:before {
+	--tilt: 1.2rem;
+	background: #fff;
+	-webkit-clip-path: polygon(
+		0 0,
+		calc(100% - var(--tilt)) 0,
+		100% 50%,
+		calc(100% - var(--tilt)) 100%,
+		0 100%
+	);
+	clip-path: polygon(
+		0 0,
+		calc(100% - var(--tilt)) 0,
+		100% 50%,
+		calc(100% - var(--tilt)) 100%,
+		0 100%
+	);
+	content: "";
+	display: block;
+	height: 100%;
+	left: calc(-100% - var(--tilt));
+	position: absolute;
+	top: 0;
+	transform: translateX(var(--progress, 0));
+	transition: transform 2s ease;
+	width: calc(100% + var(--tilt));
+}
+.btn-5:hover:before {
+	--progress: 100%;
+}
+
+.icon-avatar:before {
+	content: "\e901";
+}
+.icon-changing-baby:before {
+	content: "\e902";
+}
+.icon-four-people:before {
+	content: "\e903";
+}
+.icon-hand-paper:before {
+	content: "\e904";
+}
+.icon-man:before {
+	content: "\e905";
+}
+.icon-man-and-woman:before {
+	content: "\e906";
+}
+.icon-meditation:before {
+	content: "\e907";
+}
+.icon-presenter-podium:before {
+	content: "\e908";
+}
+.icon-sanitizer-hand:before {
+	content: "\e909";
+}
+.icon-search-people:before {
+	content: "\e90a";
+}
+.icon-social-distance:before {
+	content: "\e90b";
+}
+.icon-three-people:before {
+	content: "\e90c";
+}
+.icon-three-people-circle:before {
+	content: "\e90d";
+}
+.icon-three-people-line:before {
+	content: "\e90e";
+}
+.icon-two-people-together:before {
+	content: "\e90f";
+}
+.icon-video-chat:before {
+	content: "\e910";
+}
+.icon-wash-hands:before {
+	content: "\e911";
+}
+.icon-wheelchair:before {
+	content: "\e912";
+}
+.icon-woman:before {
+	content: "\e913";
+}
+.icon-person:before {
+	content: "\e900";
+}
